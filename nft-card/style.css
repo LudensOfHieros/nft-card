@@ -1,0 +1,71 @@
+.card {
+    display:block;
+    
+    margin-left: auto;
+	margin-right: auto;
+	
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15%;
+    max-width: 15%;
+    
+    background-color: hsl(216, 50%, 16%);
+    color: #fff;
+}
+
+.nft {
+    width:100%;
+}
+.nft:hover{
+    background-color: hsl(178, 100%, 50%);
+    background-image: url(./images/icon-view.svg);
+}
+h1 {
+    color: hsl(178, 100%, 50%) ;
+    cursor: pointer;
+}
+.sale {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency{
+    margin-right: 35%;
+    color: hsl(178, 100%, 50%);
+}
+
+.time-frame {
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar {
+    width: 15%;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+.footer {
+    display: flex;
+    align-items: center;
+   
+}
+
+.bio {
+    margin-right: 20%;
+}
+.text {
+    color: hsl(215, 51%, 70%);
+}
+
+.author {
+    color: #fff;
+}
+.author:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+html {
+    background-color: hsl(217, 54%, 11%);
+}
+
+
